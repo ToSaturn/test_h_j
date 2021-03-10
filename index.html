@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cart_statistic</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main-block">
+    <svg class="linear">
+      <polyline points="40,150 10,150 10,370 25,370" fill="none" stroke="gray" stroke-width="1px"></polyline>
+      <polyline points="10,370 10,390" fill="none" stroke="gray" stroke-width="1px"></polyline>
+      <polyline points="10,395 10,405" fill="none" stroke="gray" stroke-width="1px"></polyline>
+      <polyline points="5,400 15,400" fill="none" stroke="gray" stroke-width="1px"></polyline>
+      <polyline points="10,410 10,415 15,415" fill="none" stroke="gray" stroke-width="1px"></polyline>
+    </svg>
+    <section class="circle">
+      <img class="flag" src="image/loyalty.svg" alt="flag">
+      <svg class="svg">
+        <circle r="120" cx="173" cy="150" fill="none" stroke="white" stroke-width="8"></circle>
+        <circle r="120" cx="173" cy="150" fill="none" stroke="#ECECEC" stroke-width="8" stroke-dasharray="677 76" stroke-linecap="round" transform="rotate(-72 173 150)"></circle>
+        <circle class="anim_2" r="120" cx="173" cy="150" fill="none" stroke="#70A84B" stroke-width="9" stroke-dasharray="20 680" stroke-linecap="round" style="opacity:0"></circle>
+        <circle class="anim_1" r="120" cx="173" cy="150" fill="none" stroke="#FCD329" stroke-width="10" stroke-dasharray="0 700" stroke-linecap="round"></circle>
+      </svg>
+      <div class="circle-description">
+        <b class="stat">72.<span>7</span><sup>%</sup></b> <b class="title">Лояльность</b><br> <b class="color">ниже среднего<br></b>
+        <div class="desc">по отрасли FMCG<br> значений слева от медианы<br> 52.0% - 83.1%</div>
+        <div class="change"><svg width="24" height="24">
+            <polygon points="4,24 12,16 20,24" fill="#70a84b" stroke="#70a84b" stroke-width="2" stroke-linejoin="round"></polygon>
+          </svg>
+          <div>
+            3.1
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="description">
+      <div class="block ">
+        <div class="des-title">Промоутеры</div>
+        <div class="statist">
+          <div>32.0%</div>
+          <div>81 <img src="image/human_full.svg" alt="human"></div>
+        </div>
+        <div id="n_1" class="picture">+1.2%
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="block ">
+        <div class="des-title">Скептики</div>
+        <div class="statist">
+          <div>39.1%</div>
+          <div>8 <img src="image/human_full.svg" alt="human"></div>
+        </div>
+        <div id="n_2" class="picture">+4.8%
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="block">
+        <div class="des-title">Критики</div>
+        <div class="statist">
+          <div>79.8%</div>
+          <div>7 <img src="image/human_full.svg" alt="human"></div>
+        </div>
+        <div id="n_3" class="picture">-9.7%
+
+          <div class="line"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
